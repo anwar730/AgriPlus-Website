@@ -112,5 +112,17 @@ button{
 .products p{
     font-size: 25px;
 }
+.most-popular h2{
+    padding-left: 170px;
+    padding-bottom: 20px;
+}
+.popular img{
+    width: 200px;
+}
+.popular ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
 
 
