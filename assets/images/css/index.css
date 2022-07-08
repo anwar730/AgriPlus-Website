@@ -31,10 +31,41 @@ a{
     align-items: center;
     gap: 40px;
 }
+.logo{
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: P;
+}
+
+
 button{
     background-color: #ED661F;
-    padding:  15px 20px;
-    border: none;
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
 }
+
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 900px;  
+    background-image: url("/assets/images/image\ 1\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro-image img {
+    width: 800px;
+}
+.introduction h3{
+    font-size: 65px;
+}
+.introduction p{
+    font-size: 26px;
+}
+
+
 
 
