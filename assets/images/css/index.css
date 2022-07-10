@@ -42,6 +42,7 @@ a{
 }
 
 
+
 button{
     background-color: #ED661F;
     color: white;
@@ -69,25 +70,34 @@ button{
 .introduction p{
     font-size: 26px;
 }
-
-.intro-box ul{
+.intro-box {
+    padding: 40px 30px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    background-color: white;
+    width: 35%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
+    justify-content: space-between;
     text-align: center;
-    font-weight: bold;
-   
-   
-    padding: 30px;
-    height: 50px;
+    margin-top: -70px;
+    margin-left: 50%;
+    box-shadow: 2px 2px 5px grey;
+
 }
+.intro-box p{
+    font-weight: bold
+    
+}
+
+
+
 
 
 .content{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 500px;
     
 }
 
