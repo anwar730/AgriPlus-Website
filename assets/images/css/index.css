@@ -154,6 +154,12 @@ button{
     padding-left: 250px;
 }
 
+hr {
+    height: 20px;
+    background: #ccc;
+    margin: 10px;
+}
+
 
 
 .feedback ul{
