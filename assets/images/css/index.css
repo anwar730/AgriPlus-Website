@@ -220,5 +220,21 @@ button.btn-email {
     border: none;
     padding: 16px 30px 17px 30px;
 }
+.footer2 ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    list-style: none;
+    height: 400px;
+    align-items: center;
+
+
+    
+    
+}
+
+
 
 
