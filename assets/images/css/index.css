@@ -19,6 +19,9 @@ body {
     height: 100px;
     
 }
+.logo {
+    font-family: 'Poppins';
+}
 .menu{
     display: flex;
     list-style: none;
@@ -94,9 +97,11 @@ button{
 .content-image img{
     width: 700px;
 }
-.reason h3{
-    font-weight: bolder;
+.reason h3 {
+    font-weight: bold;
+    font-size: 24px;
 }
+
 .reason p{
     font-size: 20px ;
     
@@ -110,8 +115,10 @@ button{
     justify-content: center;
     text-align: center;
 }
-.products h3{
-    font-weight: bolder;
+
+.products h3 {
+    font-weight: bold;
+    font-size: 26px;
 }
 
 .products p{
@@ -148,37 +155,65 @@ button{
     padding-top: 30px;
 
 }
-.see{
+
+.see {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-right: 270px;
-}
-.paragraph h2{
-    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: end;
+    gap: 10px;
 }
 
+#line{
+    color: #ED661F;
+    height: 100px;
+}
 hr {
     height: 20px;
     background: #ccc;
     margin: 10px;
 }
 
+.paragraph h2{
+    padding-left: 250px;
+}
 
-
-.feedback ul{
+.feedback ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    height:300px;
+    height: 300px;
     align-items: center;
-    
-    
+    padding-top: 40px;
 }
+
+
 .paragraph h2{
     padding-top: 50px;
     
 }
+
+.paragraph p {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.ratings li{
+    border: 1px solid #ccc;
+    padding:15px 30px;
+}
+
+.stars i{
+    color: #ED661F;
+    width: 20px;
+    
+}
+
+.stars {
+    display: flex;
+    gap: 20px;
+    height: 50px;
+}
+
 .rebecca{
     display: flex;
     align-items: center;
@@ -214,11 +249,26 @@ hr {
     height: 50px;
 }
 
-.read{
+.read {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-right: 220px;
+    padding-right: 250px;
+    justify-content: end;
+    gap: 10px;
+}
+
+.footer h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+ul.footer li h4 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.footer p {
+    color: #cccc;
+    padding-top: 5px;
 }
 
 .footer1{
@@ -256,6 +306,62 @@ button.btn-email {
     
 }
 
+
+#last{
+    display: flex;
+}
+
+.icons {
+    padding-top: 15px;
+    display: flex;
+    gap: 20px;
+    color: #ccc;
+}
+
+p.app {
+    color: #fff;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #ccc;
+    color: #000;
+    border-radius: 7px;
+    width: 200px;
+}
+
+.ios p {
+    color: #000;
+    padding-left: 10px;
+}
+span.ios {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mainapps {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.ios {
+    display: flex;
+    background: #ccc;
+    align-items: center;
+    color: #000;
+    padding-left: 20px;
+    border-radius: 7px;
+}
+
+.playstore img {
+    width: 200px
+}
 
 
 
